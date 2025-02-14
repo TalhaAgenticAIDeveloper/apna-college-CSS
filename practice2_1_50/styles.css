@@ -1,0 +1,19 @@
+*{
+
+    font-family: 'Times New Roman';
+    
+}
+
+
+#question1{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#outer p{
+    font-size: 25px;
+}
+
+#inner p{
+    font-size: 10px;
+}

@@ -1,0 +1,35 @@
+h1{
+    /* text-align: center ; */
+     text-align: start; /*left */
+    /*text-align: end; /*right*/
+    /* text-align: justify; */
+}
+
+h2{
+    /* text-decoration: underline dotted; */
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: overline;
+}
+
+h4{
+    text-decoration: line-through  ;
+}
+a{
+    text-decoration: none;
+}
+
+#bold{
+    font-weight: bold;
+}
+#light{
+    font-weight: normal;
+}
+#boldest{
+    font-weight: bolder;
+}
+#lightest{
+    font-weight: lighter;
+}
