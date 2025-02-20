@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        #container{
+            height: 300px;
+            width: 300px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+        }
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        #box1{
+            background-color: red;
+            flex-shrink: 3;
+        }
+        #box2{
+            background-color: green;
+        }
+        #box3{
+            background-color: blue;
+        }
+        #box4{
+            background-color: yellow;
+        }
+        #box5{
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flexbox</h1>
+    <p><b>main axis:</b> means X-axis <br> <b>cross axis:</b> means Y-axis</p>
+    <div id="container">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+    </div>
+    <ul>
+        <li><b>flex-direction</b>
+            <ul>
+                <li>row</li>
+                <li>row-reverse</li>
+                <li>column</li>
+                <li>column-reverse</li>
+            </ul>
+        </li>
+        <li><b>Justify-content</b>
+            <ul>
+                <li>flex-start</li>
+                <li>flex-end</li>
+                <li>center</li>
+                <li>space-between</li>
+                <li>space-around</li>
+                <li>space-evenly</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

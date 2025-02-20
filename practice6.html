@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 6</title>
+    <style>
+        .navbar{
+            display: flex;
+            justify-content: space-evenly;
+        }
+       li{
+        list-style-type:none;
+        display: inline;
+       }
+        a{
+            text-decoration: none;
+        }
+        #main{
+            display: flex; 
+            justify-content: center;
+            align-items: center; /*this is to make the item vertically center  */
+            margin-top: 10px;
+            height: 100px;
+            width: 100%;
+            border: 2px solid red;
+        }
+        #child{
+            height: 20px;
+            width: 20px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Practice Set 6</h1>
+
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li></li><a href="#">About</a></li>
+        <li></li><a href="#">Contact</a></li>
+        <li></li><a href="#">Logo</a></li>
+    </ul>
+    <div id="main">
+        <div id="child"></div>
+    </div>
+</body>
+</html>
