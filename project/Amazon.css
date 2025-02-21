@@ -183,11 +183,12 @@ nav-second{
 /**   Shop section  **/
 .shop-section{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #cbbd81;
 }
 .box{
-    height: 350px;
+    height: 400px;
     width: 22%;
     background-color: white;
     padding: 20px 0px 15px;
