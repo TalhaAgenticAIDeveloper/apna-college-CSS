@@ -191,15 +191,15 @@ nav-second{
     height: 400px;
     width: 22%;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 10px 0px 15px;
     margin-top: 15px;
     border: 3px solid black;
    
 }
 .box-img{
-    height: 300px;
+    height: 330px;
     background-size: cover;
-    margin-top: 1rem;
+    margin-top: 0.75rem;
     margin-bottom: 1rem;
 }
 .box-content{
